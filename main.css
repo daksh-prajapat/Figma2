@@ -24,22 +24,26 @@ img {
    Ek jagah change karo - poori site change
 ======================================== */
 
-/* Saari headings - Bebas Neue, #051625 */
+/* ✅ SAARI MAIN HEADINGS - ek hi class, ek hi jagah change karo */
 .section-heading {
     font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 65px;           /* ← sirf yahan change karo, sab jagah change ho jayega */
     color: #051625;
     letter-spacing: 1px;
-    line-height: 1.2;
+    line-height: 1.1;
+    font-weight: 400;
 }
 
-/* Saari subheadings / tags - #006970 */
+/* ✅ SAARI SUBTITLES / TAGS - ek hi class, ek hi jagah change karo */
 .section-subheading {
     font-family: 'Segoe UI', system-ui, sans-serif;
     color: #006970;
-    font-size: 14px;
+    font-size: 14px;           /* ← sirf yahan change karo, sab jagah change ho jayega */
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 12px;
 }
 
 /* ========================================
@@ -410,13 +414,13 @@ img {
     width: 100%;
     padding: 80px 60px;
     display: flex;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 }
 
 .left-container {
-    flex: 1;
+    flex: 1.5;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -488,7 +492,6 @@ img {
 }
 
 .about-title {
-    font-size: 65px;
     margin-bottom: 20px;
     line-height: 100%;
 }
@@ -548,7 +551,7 @@ img {
 
 .main-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 580px;
     position: relative;
     overflow: hidden;
 }
@@ -599,7 +602,7 @@ img {
 }
 
 .flip-number {
-    font-size: 48px;
+    font-size: 70px;
     font-weight: 700;
     color: white;
     margin-bottom: 5px;
@@ -608,11 +611,11 @@ img {
 }
 
 .flip-label {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: white;
     opacity: 0.9;
-    line-height: 16px;
+    line-height: 17px;
 }
 
 /* ========================================
@@ -676,11 +679,9 @@ img {
 }
 
 .products-title {
-    font-size: 62px;
     color: #ffffff;
     margin-bottom: 20px;
     line-height: 100%;
-    font-weight: 400;
     text-transform: capitalize;
 }
 
@@ -917,7 +918,6 @@ img {
 
 .why-title {
     margin-top: 15px;
-    font-size: 58px;
     line-height: 1.1;
 }
 
@@ -932,7 +932,8 @@ img {
     margin-top: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 5px;
+    width: 150%;
 }
 
 .feature-item {
@@ -946,18 +947,18 @@ img {
 }
 
 .feature-item span {
-    font-size: 18px;
-    color: #006970;
+    font-size: 20px;
+    color: #4D5357;
     font-weight: 700;
     flex-shrink: 0;
 }
 
 .feature-item h4 {
-    color: #051625;
+    color: #000000;
     margin-bottom: 8px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
 }
 
 .feature-item p {
@@ -1003,7 +1004,6 @@ img {
 }
 
 .quality-heading {
-    font-size: 42px;
     margin-bottom: 25px;
 }
 
@@ -1094,7 +1094,6 @@ img {
 }
 
 .testimonials-heading {
-    font-size: 65px;
     margin-bottom: 2px;
 }
 
@@ -1218,7 +1217,6 @@ img {
 }
 
 .brands-title {
-    font-size: 56px;
     margin-bottom: 50px;
     line-height: 80%;
 }
@@ -1316,7 +1314,6 @@ img {
 }
 
 .faq-heading {
-    font-size: 32px;
     margin-bottom: 30px;
 }
 
@@ -1440,9 +1437,7 @@ img {
 }
 
 .quote-heading {
-    font-size: 55px;
     margin-bottom: 15px;
-    font-weight: 400;
     line-height: 100%;
 }
 
@@ -1696,15 +1691,10 @@ textarea.form-control {
     }
 
     .hero-title { font-size: 48px; }
-    .products-title { font-size: 44px; }
-    .testimonials-heading { font-size: 38px; }
-    .brands-title { font-size: 32px; }
+    .section-heading { font-size: 48px; }
     .brand-item { width: 200px; height: 100px; }
     .faq-left { width: 300px; }
-    .faq-heading { font-size: 28px; }
-    .quality-heading { font-size: 36px; }
     .quality-box { max-width: 800px; }
-    .why-title { font-size: 48px; }
 }
 
 /* Why Choose - responsive */
@@ -1829,7 +1819,7 @@ textarea.form-control {
     .img1, .img2 { height: 90px; }
     .img3 { height: 120px; }
     .about-wrapper { text-align: center; }
-    .about-title { font-size: 32px; }
+    .section-heading { font-size: 34px; }
     .stats-row { justify-content: center; gap: 20px; }
     .stat-box { min-width: 140px; }
     .right-container { width: 100%; justify-content: center; }
@@ -1849,14 +1839,11 @@ textarea.form-control {
     .quality-bg { min-height: auto; }
     .quality-container { justify-content: center; padding: 30px; }
     .quality-box { max-width: 700px; padding: 30px; }
-    .quality-heading { font-size: 30px; }
 
     /* Testimonials */
     .testimonials-container { padding: 0 40px; }
-    .testimonials-heading { font-size: 34px; }
 
     /* Brands */
-    .brands-title { font-size: 28px; }
     .brand-item { width: 180px; height: 90px; padding: 15px; }
     .brands-track { gap: 20px; }
 
@@ -1865,13 +1852,13 @@ textarea.form-control {
     .faq-left { width: 100%; text-align: center; }
     .faq-description { max-width: 500px; margin: 0 auto; }
     .faq-right { width: 100%; }
-    .faq-heading { text-align: center; font-size: 28px; }
+    .faq-heading { text-align: center; }
 
     /* Quote */
     .quote-container { flex-direction: column; padding: 0 40px; }
     .quote-image { width: 100%; max-width: 450px; margin: 0 auto; }
     .quote-form { width: 100%; padding: 30px; }
-    .quote-heading { font-size: 36px; text-align: center; }
+    .quote-heading { text-align: center; }
     .quote-subtext { text-align: center; }
 
     /* Footer */
@@ -1892,7 +1879,7 @@ textarea.form-control {
         border-radius: 20px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
-    .why-title { font-size: 42px; text-align: center; }
+    .why-title { text-align: center; }
     .why-subtitle { text-align: center; }
     .why-description { text-align: center; max-width: 100%; margin: 25px auto 0; }
     .why-features { grid-template-columns: 1fr; max-width: 100%; margin: 35px auto 0; text-align: left; }
@@ -1913,7 +1900,7 @@ textarea.form-control {
     .image-box { width: 150px; }
     .img1, .img2 { height: 85px; }
     .img3 { height: 110px; }
-    .about-title { font-size: 26px; }
+    .section-heading { font-size: 28px; }
     .about-text { font-size: 14px; }
     .stat-box { min-width: 130px; padding: 10px; }
     .stat-value { font-size: 16px; }
@@ -1932,12 +1919,10 @@ textarea.form-control {
     .quality-section { padding: 30px 15px; }
     .quality-container { padding: 20px; }
     .quality-box { padding: 25px; }
-    .quality-heading { font-size: 26px; }
     .quality-text, .point-content, .quality-footer { font-size: 13px; }
 
     .testimonials-section { padding: 50px 0; }
     .testimonials-container { padding: 0 20px; }
-    .testimonials-heading { font-size: 28px; }
     .testimonials-subtext { font-size: 14px; margin-bottom: 30px; }
     .testimonial-box { padding: 20px; }
     .company-name { font-size: 16px; }
@@ -1945,13 +1930,12 @@ textarea.form-control {
     .nav-btn { width: 40px; height: 40px; }
 
     .brands-section { padding: 40px 15px; }
-    .brands-title { font-size: 24px; margin-bottom: 30px; }
+    .brands-title { margin-bottom: 30px; }
     .brand-item { width: 150px; height: 80px; padding: 12px; }
     .brands-track { gap: 15px; }
 
     .faq-section { padding: 50px 0; }
     .faq-container { padding: 0 20px; }
-    .faq-heading { font-size: 24px; }
     .faq-question { padding: 14px 18px; }
     .faq-question span { font-size: 14px; }
     .faq-toggle { width: 28px; height: 28px; font-size: 16px; }
@@ -1961,7 +1945,6 @@ textarea.form-control {
     .quote-section { padding: 50px 0; }
     .quote-container { padding: 0 20px; }
     .quote-form { padding: 25px; }
-    .quote-heading { font-size: 30px; }
     .quote-subtext { font-size: 14px; }
     .form-row { flex-direction: column; gap: 15px; }
     .form-control { padding: 12px 15px; font-size: 14px; }
@@ -1975,10 +1958,9 @@ textarea.form-control {
 
     .why-choose-section { padding: 30px 0; }
     .why-content { padding: 25px 20px; margin: 15px; border-radius: 16px; }
-    .why-title { font-size: 36px; }
     .why-description { font-size: 14px; margin-top: 20px; }
     .why-features { gap: 20px; margin-top: 25px; }
-    .feature-item h4 { font-size: 15px; }
+    .feature-item h4 { font-size: 18px; }
     .feature-item p { font-size: 13px; }
 
     /* Fix background on mobile */
@@ -1991,13 +1973,7 @@ textarea.form-control {
 @media screen and (max-width: 576px) {
     .hero-title { font-size: 30px; }
     .hero-subtitle { font-size: 16px; }
-    .about-title { font-size: 24px; }
-    .products-title { font-size: 28px; }
-    .testimonials-heading { font-size: 26px; }
-    .brands-title { font-size: 22px; }
-    .quality-heading { font-size: 24px; }
-    .faq-heading { font-size: 22px; }
-    .quote-heading { font-size: 28px; }
+    .section-heading { font-size: 24px; }
     .image-box { width: 130px; }
     .img1, .img2 { height: 75px; }
     .img3 { height: 100px; }
@@ -2019,10 +1995,9 @@ textarea.form-control {
     .btn-guide, .btn-contact { padding: 12px 16px; font-size: 13px; }
 
     .why-content { padding: 20px 15px; margin: 10px; border-radius: 14px; }
-    .why-title { font-size: 30px; }
     .why-description { font-size: 13px; }
     .why-features { gap: 18px; margin-top: 20px; }
-    .feature-item h4 { font-size: 14px; }
+    .feature-item h4 { font-size: 16px; }
     .feature-item p { font-size: 12px; }
 }
 
@@ -2036,9 +2011,8 @@ textarea.form-control {
     .hero-description { font-size: 13px; }
     .hero-btn { padding: 10px 20px; font-size: 13px; }
 
-    .about-title { font-size: 22px; }
+    .section-heading { font-size: 20px; }
     .about-text { font-size: 13px; }
-    .products-title { font-size: 24px; }
     .image-box { width: 120px; }
     .img1, .img2 { height: 70px; }
     .img3 { height: 90px; }
@@ -2050,7 +2024,6 @@ textarea.form-control {
     .card-label { font-size: 12px; }
     .read-more { padding: 6px 14px; font-size: 10px; }
 
-    .testimonials-heading { font-size: 24px; }
     .testimonials-subtext { font-size: 13px; }
     .testimonial-box { padding: 15px; }
     .company-name { font-size: 14px; }
@@ -2060,18 +2033,15 @@ textarea.form-control {
     .brand-item { width: 130px; height: 70px; padding: 10px; }
     .brands-track { gap: 12px; }
 
-    .faq-heading { font-size: 20px; }
     .faq-question { padding: 12px 15px; }
     .faq-question span { font-size: 13px; }
     .faq-answer { font-size: 12px; }
 
-    .quote-heading { font-size: 24px; }
     .quote-form { padding: 20px; }
     .form-control { padding: 10px 12px; font-size: 13px; }
     .quote-btn { font-size: 12px; padding: 10px 16px; }
 
     .quality-box { padding: 20px; }
-    .quality-heading { font-size: 20px; }
     .quality-text, .point-content, .quality-footer { font-size: 12px; }
     .quality-btn { width: 100%; justify-content: center; padding: 12px 20px; }
 
@@ -2083,54 +2053,48 @@ textarea.form-control {
     .footer-social a { width: 28px; height: 28px; }
 
     .why-content { padding: 20px 15px; margin: 10px; border-radius: 12px; }
-    .why-title { font-size: 26px; }
     .why-features { gap: 15px; }
-    .feature-item h4 { font-size: 14px; }
+    .feature-item h4 { font-size: 16px; }
     .feature-item p { font-size: 11px; }
 }
 
 
 /* ========================================
    EXTRA HEADINGS - BEBAS NEUE APPLY
-   (Bina kisi aur cheez ko change kiye)
+   (section-heading base class handles all of these)
 ======================================== */
 
-/* Products section title */
+/* All titles already inherit Bebas Neue from .section-heading base class */
+/* Individual classes below kept for any section-specific layout tweaks only */
+
 .products-title {
     font-family: 'Bebas Neue', cursive, sans-serif;
 }
 
-/* Why choose section title */
 .why-title {
     font-family: 'Bebas Neue', cursive, sans-serif;
 }
 
-/* Quality section heading */
 .quality-heading {
     font-family: 'Bebas Neue', cursive, sans-serif;
 }
 
-/* Testimonials heading */
 .testimonials-heading {
     font-family: 'Bebas Neue', cursive, sans-serif;
 }
 
-/* Brands section title */
 .brands-title {
     font-family: 'Bebas Neue', cursive, sans-serif;
 }
 
-/* FAQ tag (Bebas wala style diya hai aapne pehle hi, main bas ensure kar raha hoon) */
 .faq-tag {
     font-family: 'Bebas Neue', cursive, sans-serif;
 }
 
-/* Quote heading */
 .quote-heading {
     font-family: 'Bebas Neue', cursive, sans-serif;
 }
 
-/* Footer headings (h4) - agar chahte ho toh, warna skip kar do */
 .footer-col h4 {
     font-family: 'Bebas Neue', cursive, sans-serif;
     letter-spacing: 1px;
