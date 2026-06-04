@@ -562,6 +562,61 @@ img {
     display: block;
 }
 
+/* Bottom dark navy overlay - 170px height, empty background */
+.about-bottom-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #051625;
+    z-index: 2;
+}
+
+/* Logo positioned over overlay - left middle */
+.about-overlay-logo-wrapper {
+    position: absolute;
+    bottom: 60px; /* center vertically on 170px overlay */
+    left: 30px;
+    z-index: 3;
+}
+
+.about-overlay-logo {
+    width: 129px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Founded In badge - right side, no background, no border */
+.about-founded-badge {
+    position: absolute;
+    bottom: 70px; /* center vertically on 170px overlay */
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 3;
+}
+
+.founded-label {
+    font-size: 13px;
+    font-weight: 450;
+    color: #959595; /* teal */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.founded-year {
+    font-size: 14px;
+    font-weight: 600;
+    color: #C2CE35; /* yellow-green */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
 .flip-card {
     position: absolute;
     top: 30px;
@@ -967,9 +1022,6 @@ img {
     line-height: 1.6;
 }
 
-/* ========================================
-   QUALITY SECTION
-======================================== */
 .quality-section {
     width: 100%;
     padding: 40px 15px;
