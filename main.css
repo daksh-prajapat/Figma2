@@ -563,7 +563,7 @@ img {
 }
 
 .stat-value {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 700;
     color: #006970;
     margin-bottom: 20px;
@@ -993,17 +993,17 @@ img {
 
 .why-wrapper {
     width: 100%;
-    background: url("choose.png") no-repeat center center;
+    background: url("choose-2.png") no-repeat center center;
     background-size: cover;
     position: relative;
-    min-height: 820px;
-    height: auto;
+    min-height: 1085px;
+    /* height: auto; */
 }
 
 .why-content {
     max-width: 600px;
     position: absolute;
-    /* top: 15%; */
+    top: 15%;
     left: 1.5%;
     padding: 20px;
 }
